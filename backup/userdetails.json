@@ -1,0 +1,12 @@
+{"_id":{"$oid":"58cf781b6d04634385cf3942"},"username":"john","email":"john@abc.com","firstName":"John","lastName":"Deo","skills":["Nodejs","Javascript","HTML","CSS"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3943"},"username":"karthi","email":"karthi@abc.com","firstName":"Karthick","lastName":"Raja","skills":["Java","Angular","PHP"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3944"},"username":"cristy","email":"cristy@abc.com","firstName":"Cristy","lastName":"Jayn","skills":["PHP","MySQL","Apache","Javascript"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3945"},"username":"cristino","email":"cristino@abc.com","firstName":"Cristino","lastName":"Lyn","skills":["Java","Angular","HTML","CSS","SASS"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3946"},"username":"davidb","email":"davidb@abc.com","firstName":"David","lastName":"Beckham","skills":["Javascript","Coffeescript","Requirejs","Bootstrap"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3947"},"username":"reetu","email":"reetu@abc.com","firstName":"Reetu","lastName":"John","skills":["HTML","CSS","Bootstrap","JQuery"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3948"},"username":"keerthi","email":"keerthi@abc.com","firstName":"Keerthi","lastName":"Suresh","skills":["Angular","HTML","CSS","PHP"]}
+{"_id":{"$oid":"58cf781b6d04634385cf3949"},"username":"suriya","email":"suriya@abc.com","firstName":"Suriya","lastName":"Kumar","skills":["Oracle","Datastructure","Big Data"]}
+{"_id":{"$oid":"58cf781b6d04634385cf394a"},"username":"ajith","email":"ajith@abc.com","firstName":"Ajith","lastName":"kumar","skills":["MEAN","HTML","CSS","Bootstrap"]}
+{"_id":{"$oid":"58cf781b6d04634385cf394b"},"username":"vijay","email":"vijay@abc.com","firstName":"Vijay","lastName":"kumar","skills":["Reactjs","Backbonejs","Nodejs","Javascript"]}
+{"_id":{"$oid":"58cf781b6d04634385cf394c"},"username":"ram","email":"ram@abc.com","firstName":"Ram","lastName":"Prabhu","skills":["HTML","CSS","JQuery","Bootstrap","Javascript"]}
+{"_id":{"$oid":"58cf781b6d04634385cf394d"},"username":"mark","email":"mark@abc.com","firstName":"Mark","lastName":"Stathom","skills":["Java","Spring","C#","Oracle"]}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        User - Skill Search
+    </title>
+    <link rel='stylesheet' href='/lib/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body ng-app="search" class="container">
+    <header>
+        <h1> User Search </h1>
+    </header>
+    <section ng-controller="searchCtrl">
+        <p> Please use these input box to enter your search query </p>
+
+        <article>
+            <div class="search-box">
+                <form name="username" ng-submit="searchDB('username')" novalidate>
+                    <div class="form-group">
+                        <label for="searchByUser">Enter User Details</label>
+                        <input type="text" class="form-control" ng-model="searchUsers" id="searchByUser" placeholder="Enter User details" autocomplete="off" autofocus required>
+                    </div>
+                    <button type="submit" class="btn btn-default" ng-disabled="username.$invalid">Search by User</button>
+                </form>
+                </br>
+                </hr>
+                </br>
+                
+                <form name="skills" ng-submit="searchDB('skills')" novalidate>
+                    <div class="form-group">
+                        <label for="searchBySkill">Enter Skill Details</label>
+                        <input type="text" class="form-control" id="searchBySkill" ng-model="searchSkills" placeholder="Enter User details" autocomplete="off" required>
+                    </div>
+                    <button type="submit" class="btn btn-default" ng-disabled="skills.$invalid">Search by Skill</button>
+                </form>
+            </div>
+
+        </article>
+
+        <article>
+            <h1> Search Result for : {{searchUsers || searchBySkill}} </h1>
+
+            <table class="table table-striped">
+                <thead>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Skills</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="user in users">
+                        <td>{{user.username}}</td>
+                        <td>{{user.email}}</td>
+                        <td>{{user.firstName}}</td>
+                        <td>{{user.lastName}}</td>
+                        <td>{{user.skills}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <script src="/lib/js/angular.min.js" ng:autobind></script>
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
