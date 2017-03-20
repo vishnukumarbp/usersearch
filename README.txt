@@ -14,7 +14,9 @@ Password : test123
 
 Port : 27017
 
-command to restore the db backup which is available at /backup/search
+use backup available at /backup/search for mongorestore.
+
+
 
 
 
